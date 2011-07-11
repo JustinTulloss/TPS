@@ -21,7 +21,8 @@ Dependencies
  - JSON. If running this on a browser that does not have built in JSON support,
 you will need to [provide it](https://github.com/douglascrockford/JSON-js/blob/master/json2.js).
 
- License
- -------
+
+License
+-------
 
  This is provided under the very permissive [MIT license](http://www.opensource.org/licenses/mit-license.php).
