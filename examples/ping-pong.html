@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test for TPS</title>
+        <script type="text/javascript" charset="utf8" src="tps.js"></script>
+        <script type="text/javascript">
+            Tps.subscribe('ping', function(message) {
+                console.log(message);
+                if (message == 'ping') {
+                    Tps.publish('ping', 'pong');
+                }
+                else {
+                    Tps.publish('ping', 'ping');
+                }
+            });
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
