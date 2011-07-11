@@ -19,11 +19,9 @@ Dependencies
 ------------
  - IE 8.0+ and all modern browsers
  - JSON. If running this on a browser that does not have built in JSON support,
-you will need to [provide it](json).
+you will need to [provide it](https://github.com/douglascrockford/JSON-js/blob/master/json2.js).
 
  License
  -------
- This is provided under the very permissive [MIT license](license).
 
- [json]: https://github.com/douglascrockford/JSON-js/blob/master/json2.js
- [license]: http://www.opensource.org/licenses/mit-license.php
+ This is provided under the very permissive [MIT license](http://www.opensource.org/licenses/mit-license.php).
